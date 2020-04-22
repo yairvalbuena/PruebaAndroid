@@ -2,7 +2,7 @@
 Repositorio de aplicación de prueba para Valid Prueba Ingreso
 ## Descripcion de la aplicacion:
 La aplicacion muestra dos listados de los TOP ARTISTAS y TOP CANCIONES desde la API otorgada por [last.fm](https://www.last.fm/).
-## Technical Description:
+## Descripcion Tecnica:
 * La app se estructura con MVC
 * La App utiliza la API desde (http://www.last.fm/api/) para obtener los listados de artistas y canciones.
 * Para utilizar la API se establece una API_KEY, proporcionada con anteriodridad.
