@@ -11,6 +11,9 @@ La aplicacion muestra dos listados de los TOP ARTISTAS y TOP CANCIONES desde la 
 * Se realizaron pruebas unitarias sobre dispositivo movil.
 * Se realizan pruebas con Expresso Test Archivo Ubicado en app/src/androidTest/java/yairvalbuena.android.aplicacion/Activities/ExpressotestFunction
 * La aplicacion cuenta con un sistema de resgistro y autenticacion utilizando FIREBASE. 
+* Se puede entrar a la aplicación por medio del registro de un usuario nuevo o con las siguientes credenciales de prueba:
+  *Email: test@test.com pass:123456 
+  *Email: test2@test.com pasa:124567
 * Se creo una cuenta de gmail paa acceder a firebase es de acceso libre las credenciales las anexo al correo.
 * Librerias de terceros Utilizada:Retrofit2, firebase, Picasso.
 * Añado APK para prueba simples en movil.
