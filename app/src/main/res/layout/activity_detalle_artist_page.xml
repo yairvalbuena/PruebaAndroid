@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DetallePage">
+
+    <ImageView
+        android:id="@+id/imageArtistDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textNameArtistDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Artista: "
+        android:layout_below="@+id/imageArtistDetail"
+        android:paddingTop="2dp"
+        android:textStyle="bold|italic"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ArtistNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textNameArtistDetail"
+        android:text="Nombre"
+        android:layout_below="@+id/imageArtistDetail"
+        android:paddingTop="2dp"
+        android:textStyle="italic"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/textListenersArtistDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de Reproducciones: "
+        android:layout_below="@id/textNameArtistDetail"
+        android:paddingTop="2dp"
+        android:textStyle="bold|italic"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/trackListenersArtistDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de Reproducciones: "
+        android:layout_toRightOf="@id/textListenersArtistDetail"
+        android:layout_below="@id/ArtistNameDetail"
+        android:paddingTop="2dp"
+        android:textStyle="italic"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835262461949",
+    "firebase_url": "https://validapp-de36e.firebaseio.com",
+    "project_id": "validapp-de36e",
+    "storage_bucket": "validapp-de36e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835262461949:android:ceb823b5fcf528ad2fcb94",
+        "android_client_info": {
+          "package_name": "yairvalbuena.android.aplicacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835262461949-4ruglioc6b5md2c9lo1iq7skmjjbj9ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yairvalbuena.android.aplicacion",
+            "certificate_hash": "e85bd134abcf10b5e287fa4b14ca0e6c391ee762"
+          }
+        },
+        {
+          "client_id": "835262461949-5nbf7t6vvk8vfhe8qq1i6jk4b6in3f8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj5Wqbj2bmSp8CsczDm-PhtfyPdyPgTm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835262461949-5nbf7t6vvk8vfhe8qq1i6jk4b6in3f8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/InitBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InitBtn"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <Button
+        android:id="@+id/InitBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/InitBtn"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintVertical_bias="0.505"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

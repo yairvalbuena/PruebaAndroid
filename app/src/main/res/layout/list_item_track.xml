@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="10dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp">
+
+        <ImageView
+            android:id="@+id/imageTrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:layout_centerVertical="true"/>
+
+
+
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Canción: "
+            android:layout_toRightOf="@id/imageTrack"
+            android:paddingTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/trackName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textName"
+            android:text="Nombre de la Canción"
+            android:paddingTop="2dp"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:id="@+id/textDuracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duración de la Canción: "
+            android:layout_below="@id/textName"
+            android:layout_toRightOf="@id/imageTrack"
+            android:paddingTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/trackDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duración de la Canción"
+            android:layout_toRightOf="@id/textDuracion"
+            android:layout_below="@id/trackName"
+            android:paddingTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/textListeners"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número de Reproducciones: "
+            android:layout_below="@id/textDuracion"
+            android:layout_toRightOf="@id/imageTrack"
+            android:paddingTop="2dp"
+            />
+        <TextView
+            android:id="@+id/trackListeners"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número de Reproducciones: "
+            android:layout_toRightOf="@id/textListeners"
+            android:layout_below="@id/trackDuration"
+            android:paddingTop="2dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textArtista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artista: "
+            android:layout_below="@id/textListeners"
+            android:layout_toRightOf="@id/imageTrack"
+            android:paddingTop="2dp"
+            />
+        <TextView
+            android:id="@+id/trackArtista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artista: "
+            android:layout_toRightOf="@id/textArtista"
+            android:layout_below="@id/trackListeners"
+            android:paddingTop="2dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

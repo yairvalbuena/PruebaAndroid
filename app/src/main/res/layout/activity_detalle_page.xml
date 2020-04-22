@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DetallePage">
+
+    <ImageView
+        android:id="@+id/imageTrackDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Canción: "
+        android:layout_below="@id/imageTrackDetail"
+        android:paddingTop="2dp"
+        android:textStyle="bold|italic"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/trackNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textNameDetail"
+        android:text="Nombre de la Canción"
+        android:layout_below="@id/imageTrackDetail"
+        android:paddingTop="2dp"
+        android:textStyle="italic"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/textDuracionDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duración de la Canción: "
+        android:layout_below="@id/textNameDetail"
+        android:textStyle="bold|italic"
+        android:paddingTop="2dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/trackDurationDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duración de la Canción"
+        android:layout_toRightOf="@id/textDuracionDetail"
+        android:layout_below="@id/trackNameDetail"
+        android:paddingTop="2dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/textListenersDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de Reproducciones: "
+        android:layout_below="@id/textDuracionDetail"
+        android:paddingTop="2dp"
+        android:textStyle="bold|italic"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/trackListenersDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de Reproducciones: "
+        android:layout_toRightOf="@id/textListenersDetail"
+        android:layout_below="@id/trackDurationDetail"
+        android:paddingTop="2dp"
+        android:textStyle="italic"
+        />
+
+
+    <TextView
+        android:id="@+id/textArtistaDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artista: "
+        android:layout_below="@id/textListenersDetail"
+        android:paddingTop="2dp"
+        android:textStyle="bold|italic"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/trackArtistaDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artista: "
+        android:layout_toRightOf="@id/textArtistaDetail"
+        android:layout_below="@id/trackListenersDetail"
+        android:paddingTop="2dp"
+        android:textStyle="italic"
+        />
+
+
+
+</RelativeLayout>
