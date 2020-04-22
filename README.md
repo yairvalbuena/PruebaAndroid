@@ -4,6 +4,7 @@ Repositorio de aplicación de prueba para Valid Prueba Ingreso
 La aplicacion muestra dos listados de los TOP ARTISTAS y TOP CANCIONES desde la API otorgada por [last.fm](https://www.last.fm/).
 ## Descripcion Tecnica:
 * La app se estructura con MVC
+* Se realiza un boceto de diseño en ninja mock, público en el siguiente link https://ninjamock.com/s/8GGCGGx
 * La App utiliza la API desde (http://www.last.fm/api/) para obtener los listados de artistas y canciones.
 * Para utilizar la API se establece una API_KEY, proporcionada con anteriodridad.
 * Se utiliza retrofit para realizar los peticiones REST al servicio.
@@ -17,3 +18,4 @@ La aplicacion muestra dos listados de los TOP ARTISTAS y TOP CANCIONES desde la 
 * Se creo una cuenta de gmail paa acceder a firebase es de acceso libre las credenciales las anexo al correo.
 * Librerias de terceros Utilizada:Retrofit2, firebase, Picasso.
 * Añado APK para prueba simples en movil.
+
